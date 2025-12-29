@@ -1,0 +1,25 @@
+# Arxiv Ideate - Git Ignore
+
+# Local cache
+data/
+*.pkl
+*.csv
+!arxiv_ideate/data/ # if you want to include some default data
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints
